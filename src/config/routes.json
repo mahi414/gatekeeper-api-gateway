@@ -1,0 +1,22 @@
+[
+    {
+        "prefix": "/api/users",
+        "upstream": "http://localhost:4001",
+        "stripPrefix": "/api"
+    },
+    {
+        "prefix": "/api/products",
+        "upstream": "http://localhost:4002",
+        "stripPrefix": "/api"
+    },
+    {
+        "prefix": "/api/payments",
+        "upstream": "http://localhost:4003",
+        "stripPrefix": "/api"
+    },
+    {
+        "prefix": "/api/users/admin",
+        "upstream": "http://localhost:4004",
+        "stripPrefix": "/api"
+    }
+]
